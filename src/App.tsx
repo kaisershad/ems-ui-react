@@ -1,11 +1,15 @@
 import * as React from 'react';
 import './App.css';
 import Header from './header/header';
+import Navigator from './navigator/navigator';
 
 class App extends React.Component {
   render() {
     return (
-      <Header/>
+      <div>
+        <Header/>
+        <Navigator/>
+      </div>
     );
   }
 }
