@@ -1,0 +1,20 @@
+img {
+  margin-top: -4px;
+  height: 20px;
+}
+
+.headerText {
+  text-transform: uppercase;
+  font-family: "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  color: #4a4a4a;
+}
+
+div {
+  line-height: 30px;
+  margin: 4px;
+}
+
+.divider {
+  margin-top: 2px;
+}
