@@ -9,8 +9,8 @@ function Navigator () {
     <div>
       <Layout className="navigator">
         <Header className="header">
-          <Row gutter={16} type="flex" align="middle" justify="space-between">
-            <Col span={16}>
+          <Row gutter={16} type="flex" justify="space-between">
+            <Col span={14}>
               <Menu theme="light" mode="horizontal" defaultSelectedKeys={['all']}>
                 <Menu.Item key="reporting" disabled>
                   <Icon type="area-chart"/>
@@ -22,12 +22,13 @@ function Navigator () {
                 <Menu.Item key="realm">Realm</Menu.Item>
               </Menu>
             </Col>
-            <Col span={6}>
+            <Col span={4}>
               <Button type="primary">Create Content</Button>
-              <Divider type="vertical" />
-              <Icon type="notification" style={{ fontSize: 23, padding: 2 }} />
-              <Icon type="question-circle" style={{ fontSize: 23, padding: 2 }} />
             </Col>
+            <Col span={2}>
+              <Icon type="notification" style={{ fontSize: 23, padding: 8 }} />
+              <Icon type="question-circle-o" style={{ fontSize: 23 }} />
+            </ Col>
           </Row>
         </Header>
       </Layout>
