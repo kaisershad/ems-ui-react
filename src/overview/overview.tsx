@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Row, Col, Icon, Menu, Dropdown } from 'antd';
+import Collection from './collection/collection';
 
 const menu = (
   <Menu>
@@ -25,6 +26,7 @@ function Overview () {
           </ Dropdown>
         </ Col>
       </ Row>
+      <Collection />
     </ div>
   );
 }
