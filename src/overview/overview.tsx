@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Row, Col, Icon, Menu, Dropdown } from 'antd';
 import Collection from './collection/collection';
+import Realm from './realm/realm';
 
 const menu = (
   <Menu>
@@ -27,6 +28,7 @@ function Overview () {
         </ Col>
       </ Row>
       <Collection />
+      <Realm />
     </ div>
   );
 }
