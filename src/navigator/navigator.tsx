@@ -12,7 +12,7 @@ function Navigator () {
           <Row gutter={16} type="flex" justify="space-between">
             <Col span={14}>
               <Menu theme="light" mode="horizontal" defaultSelectedKeys={['all']}>
-                <Menu.Item key="reporting" disabled>
+                <Menu.Item key="reporting" disabled="true">
                   <Icon type="area-chart"/>
                   Reporting
                   <Divider type="vertical"/>
